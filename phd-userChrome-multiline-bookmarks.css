@@ -1,0 +1,50 @@
+/* multiline bookmarks */
+toolbar#PersonalToolbar {
+    margin-top: 3px !important;
+    max-height: 1000000px !important;
+}
+#PlacesToolbar > hbox {
+    display: block !important;
+}
+#PlacesToolbar #PlacesToolbarItems {
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: visible !important;
+    overflow-y: visible !important;
+    contain: content !important;
+    margin-top: -2px !important;
+    margin-bottom: 1px !important;
+}
+#PlacesToolbar #PlacesToolbarItems toolbarbutton.bookmark-item {
+    vertical-align: middle !important;
+}
+#PlacesToolbar #PlacesToolbarItems toolbarbutton.bookmark-item > label {
+    margin-top: -1px !important;
+    margin-bottom: -1px !important;
+}
+#PlacesToolbar #PlacesToolbarItems toolbarseparator {
+    margin-bottom: -100px !important;
+    max-width: 3px !important;
+    padding: 0 0 0 1px !important;
+}
+#PlacesToolbar #PlacesToolbarItems toolbarbutton.bookmark-item > label::before {
+    margin:auto;
+}
+
+/* multiline bookmarks: auto hide */
+/*
+#PlacesToolbar #PlacesToolbarItems {
+    max-height: 0 !important;
+}
+#PlacesToolbar #PlacesToolbarItems:hover {
+    max-height: none !important;
+}
+*/
+
+/* hide first item to work-around bookmarks limit:
+ * - https://bugzilla.mozilla.org/show_bug.cgi?id=1752735
+ * - https://searchfox.org/mozilla-central/rev/78963fe42f8d5f582f84da84a5e78377b6c1fc32/browser/components/places/content/browserPlacesViews.js#1059-1065
+ */
+#PlacesToolbar #PlacesToolbarItems .bookmark-item:first-child {
+    display: none;
+}

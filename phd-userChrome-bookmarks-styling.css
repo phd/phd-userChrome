@@ -1,0 +1,82 @@
+/* bookmarks styling */
+toolbar#PersonalToolbar {
+    font-stretch: ultra-condensed !important;
+    font-size: 85% !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems {
+    margin-left: 1px !important;
+    margin-right: 1px !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton {
+    margin-top: 2px !important;
+    padding: 0 1px 0 1px !important;
+    margin-left: 2px !important;
+    min-width: 15px !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+    background: rgba(200,200,200,0.5) !important;
+    color: black !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton {
+    min-height: 16px !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton[label=""] {
+    background: none !important;
+    color: inherit !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton[label^=" "] {
+    background: none !important;
+    color: inherit !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton:not([label=""]):not([label^=" "]) > image {
+    display: none !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton:not([label=""])[label^=" "] > label {
+    margin-left: -4pt !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton:not([label=""]):hover {
+    background: rgba(200,200,200,1.0) !important;
+    color: black !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton[label=""]:hover {
+    filter: brightness(1.5) !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton:not([type='menu']) {
+    cursor: pointer !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton[type='menu'] {
+    background: rgba(147,206,233,0.5) !important;
+    color: black !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton[type='menu']:hover {
+    background: rgba(147,206,233,1.0) !important;
+    color: black !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton[type='menu'][open='true'] {
+    background: rgba(147,206,233,1.0) !important;
+    color: black !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton[type='menu'] dropmarker {
+    display: none !important;
+}
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarseparator {
+    -moz-appearance: menuitemtext !important;
+    vertical-align: middle !important;
+    margin-top: 1px !important;
+    margin-left: 1px !important;
+    margin-right: -1px !important;
+    position: relative !important;
+    height: 18px !important;
+    min-width: 0 !important;
+    width: 5px !important;
+}
+
+/*
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton > label {
+    color: black !important;
+}
+@media (prefers-color-scheme: dark) {
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarbutton > label {
+    color: white !important;
+}
+}*/

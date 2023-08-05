@@ -1,0 +1,5 @@
+/* menu items styling */
+menupopup > menuitem, menupopup > menu {
+    appearance: none !important;
+    padding: 2px 4px 2px 4px !important;
+}

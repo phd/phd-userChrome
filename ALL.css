@@ -1,0 +1,13 @@
+@import "phd-userChrome-bookmarks-styling.css";
+@import "phd-userChrome-disable-proton-ui.css";
+@import "phd-userChrome-floating-menubar.css";
+@import "phd-userChrome-kde-breeze-icons.css";
+@import "phd-userChrome-menu-items-styling.css";
+@import "phd-userChrome-multiline-bookmarks.css";
+@import "phd-userChrome-places-window-horizontal-layout.css";
+@import "phd-userChrome-remove-megabar.css";
+@import "phd-userChrome-smaller-items-in-extensions-panel.css";
+@import "phd-userChrome-tabs-styling.css";
+@import "phd-userChrome-toolbars-order-and-styling.css";
+
+/* @import "phd-userChrome-auto-hide-navigation-and-bookmarks.css"; */

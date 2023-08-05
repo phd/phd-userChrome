@@ -1,0 +1,19 @@
+/* floating menubar */
+toolbar#toolbar-menubar {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100% !important;
+    display: block !important;
+    visibility: visible !important;
+    z-index: 1000000 !important;
+    background: ButtonFace !important;
+}
+toolbaritem#menubar-items {
+    flex-direction: initial !important;
+}
+menubar#main-menubar > menu[open='true'], menubar#main-menubar > menu:hover {
+    -moz-appearance: menuitemtext !important;
+    background-color: Highlight !important;
+    color: HighlightText !important;
+}

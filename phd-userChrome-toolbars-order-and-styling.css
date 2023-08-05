@@ -1,0 +1,21 @@
+/* toolbars order */
+toolbox#navigator-toolbox { margin-top: -1px !important; }
+toolbox#navigator-toolbox::after { -moz-box-ordinal-group: 5 !important; margin-top: -1px !important; }
+tabs#tabbrowser-tabs { margin-bottom: -1px !important; }
+toolbar { box-shadow: none !important; margin: 0 !important; padding: 0 !important; }
+toolbar#toolbar-menubar { order: 1 !important; -moz-box-ordinal-group: 1 !important; }
+toolbar#PersonalToolbar { order: 2 !important; -moz-box-ordinal-group: 2 !important; }
+toolbar#nav-bar         { order: 3 !important; -moz-box-ordinal-group: 3 !important; }
+vbox#titlebar           { order: 4 !important; -moz-box-ordinal-group: 4 !important; }
+toolbar#TabsToolbar     { order: 4 !important; -moz-box-ordinal-group: 4 !important; }
+
+toolbar[inFullscreen='true'] {
+    display: none;
+}
+toolbar#toolbar-menubar[inFullscreen='true'] {
+    display: block !important;
+}
+
+toolbarbutton {
+    margin: 0 !important;
+}

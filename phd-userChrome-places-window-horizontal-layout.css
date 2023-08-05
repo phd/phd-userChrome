@@ -1,0 +1,5 @@
+/* Places Window horizontal layout */
+#placesView vbox#contentView {
+    -moz-box-orient: horizontal !important;
+    flex-direction: row !important;
+}

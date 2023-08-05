@@ -1,0 +1,16 @@
+/* Disable new Proton UI and Restore Old Classic Theme in Mozilla Firefox - Start */
+.tab-background{
+border-radius: 0px 0px !important;
+margin-bottom: 0px !important;
+}
+.tabbrowser-tab:not([selected=true]):not([multiselected=true]) .tab-background{
+background-color: color-mix(in srgb, currentColor 5%, transparent);
+}
+menupopup > menu, menupopup > menuitem{
+padding-block: 2px !important;
+min-height: 0px !important;
+}
+:root{
+--arrowpanel-menuitem-padding: 2px !important;
+}
+/* Disable new Proton UI and Restore Old Classic Theme in Mozilla Firefox - End */

@@ -1,0 +1,25 @@
+/* WIP */
+
+/* hide Bookmarks and Navigation Bar when not hovered */
+#navigator-toolbox:not(:hover) #PersonalToolbar, #navigator-toolbox:not(:hover) #nav-bar {
+/*
+    min-height: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+*/
+/*
+    display: none !important;
+*/
+/*
+    margin-top: -10000px !important;
+    position: absolute !important;
+*/
+}
+
+#PlacesToolbar:not(:hover) #PlacesToolbarItems {
+/*
+    margin-top: -10000px !important;
+    position: absolute !important;
+*/
+    display: none !important;
+}
