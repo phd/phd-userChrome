@@ -15,13 +15,13 @@ toolbar#TabsToolbar hbox.tab-content {
     font-stretch: ultra-condensed !important;
     font-size: 85% !important;
 }
-toolbar#TabsToolbar hbox.tab-content > .tab-close-button {
+toolbar#TabsToolbar .tab-close-button {
     transform: scale(0.85) !important;
 }
-/*toolbar#TabsToolbar tab:not([selected='true']) hbox.tab-content > .tab-close-button {
+/*toolbar#TabsToolbar tab:not([selected='true']) .tab-close-button {
     display: none !important;
 }*/
-toolbar#TabsToolbar tab hbox.tab-content > .tab-close-button {
+toolbar#TabsToolbar tab .tab-close-button {
     display: none !important;
 }
 tabs {

@@ -1,0 +1,10 @@
+/* active tab accent background */
+toolbar#TabsToolbar tab[selected='true'] .tab-background {
+    background-color: AccentColor !important;
+}
+toolbar#TabsToolbar tab[selected='true'] label.tab-text {
+    color: AccentColorText !important;
+}
+toolbar#TabsToolbar tab[selected='true'] .tab-close-button {
+    color: AccentColorText !important;
+}
