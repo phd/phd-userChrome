@@ -22,18 +22,30 @@ A set of userChrome.css styles for Firefox UI:
 Installation
 ------------
 
-`cd ~/.mozilla/firefox/*.default/chrome/`
+`cd ~/.mozilla/firefox/*.default-release/`
+
+`mkdir -p chrome`
+
+`cd chrome`
 
 `git clone https://github.com/phd/phd-userChrome`
 
 `echo '@import "phd-userChrome/ALL.css";' >> userChrome.css`
+
+Navigate to `about:config` and set `toolkit.legacyUserProfileCustomizations.stylesheets` to `true`.
+
+You may also want to set:
+
+- `browser.compactmode.show` to `true` and `browser.uidensity` to `1`
+- `browser.tabs.inTitlebar` to `0`
+- `browser.toolbars.bookmarks.visibility` to `always`
 
 Restart Firefox browser.
 
 Updating
 --------
 
-`cd ~/.mozilla/firefox/*.default/chrome/phd-userChrome/`
+`cd ~/.mozilla/firefox/*.default-release/chrome/phd-userChrome/`
 
 `git pull`
 
