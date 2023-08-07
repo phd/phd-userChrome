@@ -1,0 +1,8 @@
+#tab-notification-deck {
+    position: absolute !important;
+    right: 0 !important;
+}
+
+.notificationbox-stack {
+    background: none !important;
+}

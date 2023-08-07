@@ -8,6 +8,7 @@ A set of userChrome.css styles for Firefox UI:
 - `phd-userChrome-bookmarks-styling.css`
 - `phd-userChrome-disable-proton-ui.css`
 - `phd-userChrome-floating-menubar.css`
+- `phd-userChrome-floating-notifications.css`
 - `phd-userChrome-kde-breeze-icons.css`
 - `phd-userChrome-menu-items-styling.css`
 - `phd-userChrome-multiline-bookmarks.css`
