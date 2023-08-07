@@ -29,3 +29,12 @@ Installation
 `echo '@import "phd-userChrome/ALL.css";' >> userChrome.css`
 
 Restart Firefox browser.
+
+Updating
+--------
+
+`cd ~/.mozilla/firefox/*.default/chrome/phd-userChrome/`
+
+`git pull`
+
+Restart Firefox browser.
