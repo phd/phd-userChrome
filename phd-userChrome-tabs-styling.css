@@ -10,7 +10,7 @@ toolbar#TabsToolbar toolbarbutton.tabs-newtab-button {
     --toolbarbutton-border-radius: 0 !important;
 }
 toolbar#TabsToolbar hbox.tab-content {
-    padding-left: 5px !important;
+    padding-left: 3px !important;
     padding-right: 3px !important;
     font-stretch: ultra-condensed !important;
     font-size: 85% !important;
