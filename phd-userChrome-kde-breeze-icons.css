@@ -1,6 +1,7 @@
 /* KDE Breeze icons */
 
 #identity-box[pageproxystate="valid"].localResource #identity-icon       { list-style-image: url("file:///usr/share/icons/breeze/mimetypes/16/application-x-zerosize.svg") !important; }
+toolbarbutton#PanelUI-menu-button                                        { list-style-image: url("file:///usr/share/icons/breeze/actions/16/application-menu.svg")         !important; }
 toolbarbutton#back-button                                                { list-style-image: url("file:///usr/share/icons/breeze/actions/16/go-previous.svg")              !important; }
 toolbarbutton#forward-button                                             { list-style-image: url("file:///usr/share/icons/breeze/actions/16/go-next.svg")                  !important; }
 toolbarbutton#reload-button                                              { list-style-image: url("file:///usr/share/icons/breeze/actions/16/view-refresh.svg")             !important; }
@@ -44,6 +45,7 @@ image.searchbar-search-icon                                              { list-
 
 @media (prefers-color-scheme: dark) {
 #identity-box[pageproxystate="valid"].localResource #identity-icon       { list-style-image: url("file:///usr/share/icons/breeze-dark/mimetypes/16/application-x-zerosize.svg") !important; }
+toolbarbutton#PanelUI-menu-button                                        { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/application-menu.svg")         !important; }
 toolbarbutton#back-button                                                { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/go-previous.svg")              !important; }
 toolbarbutton#forward-button                                             { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/go-next.svg")                  !important; }
 toolbarbutton#reload-button                                              { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/view-refresh.svg")             !important; }
@@ -89,5 +91,3 @@ image.searchbar-search-icon                                              { list-
 toolbarbutton#reload-button .toolbarbutton-animatable-image,
 toolbarbutton#stop-button   .toolbarbutton-animatable-image
 { display: none !important; }
-
-toolbarbutton#PanelUI-menu-button {}
