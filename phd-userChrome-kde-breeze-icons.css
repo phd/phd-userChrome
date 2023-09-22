@@ -19,7 +19,7 @@ toolbarbutton#cut-button                                                 { list-
 toolbarbutton#copy-button                                                { list-style-image: url("file:///usr/share/icons/breeze/actions/16/edit-copy.svg")                !important; }
 toolbarbutton#paste-button                                               { list-style-image: url("file:///usr/share/icons/breeze/actions/16/edit-paste.svg")               !important; }
 toolbarbutton#characterencoding-button                                   { list-style-image: url("file:///usr/share/icons/breeze/actions/16/character-set.svg")            !important; }
-toolbarbutton#email-link-button                                          { list-style-image: url("file:///usr/share/icons/breeze/actions/16/mail-send.svg")                !important; }
+toolbarbutton#email-link-button                                          { list-style-image: url("file:///usr/share/icons/breeze/actions/16/document-share.svg")           !important; }
 toolbarbutton#logins-button                                              { list-style-image: url("file:///usr/share/icons/breeze/status/16/security-high.svg")             !important; }
 toolbarbutton#sync-button                                                { list-style-image: url("file:///usr/share/icons/breeze/status/16/state-sync.svg")                !important; }
 toolbarbutton#screenshot-button                                          { list-style-image: url("file:///usr/share/icons/breeze/devices/16/camera-photo.svg")             !important; }
@@ -62,7 +62,7 @@ toolbarbutton#cut-button                                                 { list-
 toolbarbutton#copy-button                                                { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/edit-copy.svg")                !important; }
 toolbarbutton#paste-button                                               { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/edit-paste.svg")               !important; }
 toolbarbutton#characterencoding-button                                   { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/character-set.svg")            !important; }
-toolbarbutton#email-link-button                                          { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/mail-send.svg")                !important; }
+toolbarbutton#email-link-button                                          { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/document-share.svg")           !important; }
 toolbarbutton#logins-button                                              { list-style-image: url("file:///usr/share/icons/breeze-dark/status/16/security-high.svg")             !important; }
 toolbarbutton#sync-button                                                { list-style-image: url("file:///usr/share/icons/breeze-dark/status/16/state-sync.svg")                !important; }
 toolbarbutton#screenshot-button                                          { list-style-image: url("file:///usr/share/icons/breeze-dark/devices/16/camera-photo.svg")             !important; }
@@ -87,7 +87,7 @@ image.searchbar-search-icon                                              { list-
 }
 
 toolbarbutton#reload-button .toolbarbutton-animatable-image,
-toolbarbutton#stop-button .toolbarbutton-animatable-image
-    { display: none !important; }
+toolbarbutton#stop-button   .toolbarbutton-animatable-image
+{ display: none !important; }
 
-toolbarbutton#PanelUI-menu-button { }
+toolbarbutton#PanelUI-menu-button {}
