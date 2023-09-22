@@ -36,6 +36,8 @@ toolbarbutton#library-button                                             { list-
 toolbarbutton#fxa-toolbar-menu-button image                              { list-style-image: url("file:///usr/share/icons/breeze/actions/16/user.svg")                     !important; }
 toolbarbutton#unified-extensions-button                                  { list-style-image: url("file:///usr/share/icons/breeze/actions/16/plugins.svg")                  !important; }
 toolbarbutton#tabs-newtab-button                                         { list-style-image: url("file:///usr/share/icons/breeze/actions/16/list-add.svg")                 !important; }
+toolbarbutton#new-tab-button                                             { list-style-image: url("file:///usr/share/icons/breeze/actions/16/list-add.svg")                 !important; }
+toolbarbutton#alltabs-button                                             { list-style-image: url("file:///usr/share/icons/breeze/actions/16/go-down.svg")                  !important; }
 toolbarbutton[label="Open Multiple URLs"]                                { list-style-image: url("file:///usr/share/icons/breeze/actions/16/tab-new.svg")                  !important; }
 toolbarbutton[label="Clear all browsing data"]                           { list-style-image: url("file:///usr/share/icons/breeze/actions/16/edit-clear-history.svg")       !important; }
 toolbarbutton[data-extensionid="{4853d046-c5a3-436b-bc36-220fd935ee1d}"] { list-style-image: url("file:///usr/share/icons/breeze/actions/16/edit-undo.svg")                !important; } /* Undo Close Tab */
@@ -80,6 +82,8 @@ toolbarbutton#library-button                                             { list-
 toolbarbutton#fxa-toolbar-menu-button image                              { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/user.svg")                     !important; }
 toolbarbutton#unified-extensions-button                                  { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/plugins.svg")                  !important; }
 toolbarbutton#tabs-newtab-button                                         { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/list-add.svg")                 !important; }
+toolbarbutton#new-tab-button                                             { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/list-add.svg")                 !important; }
+toolbarbutton#alltabs-button                                             { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/go-down.svg")                  !important; }
 toolbarbutton[label="Open Multiple URLs"]                                { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/tab-new.svg")                  !important; }
 toolbarbutton[label="Clear all browsing data"]                           { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/edit-clear-history.svg")       !important; }
 toolbarbutton[data-extensionid="{4853d046-c5a3-436b-bc36-220fd935ee1d}"] { list-style-image: url("file:///usr/share/icons/breeze-dark/actions/16/edit-undo.svg")                !important; } /* Undo Close Tab */
