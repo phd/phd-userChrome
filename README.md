@@ -7,6 +7,7 @@ A set of userChrome.css styles for Firefox UI:
 - `phd-userChrome-auto-hide-navigation-and-bookmarks.css` (experimental)
 - `phd-userChrome-bookmarks-styling.css`
 - `phd-userChrome-disable-proton-ui.css`
+- `phd-userChrome-findbar-styling.css`
 - `phd-userChrome-floating-menubar.css`
 - `phd-userChrome-floating-notifications.css`
 - `phd-userChrome-kde-breeze-icons.css`
