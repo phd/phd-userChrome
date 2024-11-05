@@ -1,0 +1,4 @@
+/* active tab double min-width */
+toolbar#TabsToolbar tab[selected='true'] {
+    min-width: calc(2 * var(--tab-min-width)) !important;
+}

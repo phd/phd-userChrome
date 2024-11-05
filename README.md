@@ -4,6 +4,7 @@ phd-userChrome
 A set of userChrome.css styles for Firefox UI:
 
 - `phd-userChrome-active-tab-accent-background.css`
+- `phd-userChrome-active-tab-double-min-width.css`
 - `phd-userChrome-auto-hide-navigation-and-bookmarks.css` (experimental)
 - `phd-userChrome-bookmarks-styling.css`
 - `phd-userChrome-disable-proton-ui.css`
