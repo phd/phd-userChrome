@@ -1,4 +1,4 @@
 /* active tab double min-width */
-toolbar#TabsToolbar tab[selected='true'] {
+toolbar#TabsToolbar tab[selected='true']:not([pinned='true']) {
     min-width: calc(2 * var(--tab-min-width)) !important;
 }
