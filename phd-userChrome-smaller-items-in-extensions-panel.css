@@ -1,25 +1,25 @@
 /* smaller items in Extensions pannel */
 
-.unified-extensions-item {
+#unified-extensions-panel .unified-extensions-item {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     padding: 0 !important;
 }
 
-.unified-extensions-item > toolbarbutton {
+#unified-extensions-panel .unified-extensions-item toolbarbutton {
     margin-top: 0 !important;
     margin-bottom: 0 !important;
     padding: 0 !important;
     white-space: nowrap;
 }
 
-.unified-extensions-item > toolbarbutton image {
+#unified-extensions-panel .unified-extensions-item toolbarbutton image {
     height: 16px !important;
     width: 16px !important;
     padding-top: 0 !important;
     padding-bottom: 0 !important;
 }
 
-.unified-extensions-item .unified-extensions-item-message {
+#unified-extensions-panel .unified-extensions-item .unified-extensions-item-message {
     display: none !important;
 }
