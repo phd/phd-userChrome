@@ -71,7 +71,7 @@ toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarseparator {
     width: 5px !important;
 }
 
-toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarseparator:last-child {
+toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarseparator:last-of-type {
     min-width: 4em !important;
     max-width: 4em !important;
     width:     4em !important;
