@@ -11,6 +11,7 @@ A set of userChrome.css styles for Firefox UI:
 - `phd-userChrome-findbar-styling.css`
 - `phd-userChrome-floating-menubar.css`
 - `phd-userChrome-floating-notifications.css`
+- `phd-userChrome-fullscreen-toolbars.css`
 - `phd-userChrome-kde-breeze-icons.css`
 - `phd-userChrome-menu-items-styling.css`
 - `phd-userChrome-multiline-bookmarks.css`

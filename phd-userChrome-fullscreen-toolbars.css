@@ -1,0 +1,21 @@
+/* Fullscreen toolbars */
+
+html[sizemode="fullscreen"] toolbar#toolbar-menubar {
+    display: none !important;
+}
+
+html[sizemode="fullscreen"] toolbar#PersonalToolbar {
+    display: none !important;
+}
+
+html[sizemode="fullscreen"] toolbar#nav-bar {
+    display: none !important;
+}
+
+html[sizemode="fullscreen"] toolbar#nav-bar-customization-target {
+    display: none !important;
+}
+
+html[sizemode="fullscreen"] toolbar#TabsToolbar {
+    display: none !important;
+}
