@@ -75,7 +75,9 @@ toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarseparator:l
     min-width: 4em !important;
     max-width: 4em !important;
     width:     4em !important;
-    appearance: button-arrow-previous !important;
+    /* appearance: button-arrow-previous !important; */
+    background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgb(255, 255,255) 100%) !important;
+    color: transparent !important;
     opacity: 0.2 !important;
 }
 
