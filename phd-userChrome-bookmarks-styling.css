@@ -77,8 +77,10 @@ toolbaritem#personal-bookmarks scrollbox#PlacesToolbarItems > toolbarseparator:l
     width:     4em !important;
     /* appearance: button-arrow-previous !important; */
     background: linear-gradient(270deg, rgba(0, 0, 0, 0) 0%, rgb(255, 255,255) 100%) !important;
+    background-clip: content-box !important;
     color: transparent !important;
-    opacity: 0.2 !important;
+    opacity: 0.35 !important;
+    padding: 1px 0 0 1px !important;
 }
 
 /*
